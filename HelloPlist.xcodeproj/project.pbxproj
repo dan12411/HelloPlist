@@ -12,6 +12,7 @@
 		5603D49A1DA7977700ACAB40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5603D4981DA7977700ACAB40 /* Main.storyboard */; };
 		5603D49C1DA7977700ACAB40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5603D49B1DA7977700ACAB40 /* Assets.xcassets */; };
 		5603D49F1DA7977700ACAB40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5603D49D1DA7977700ACAB40 /* LaunchScreen.storyboard */; };
+		5603D4A71DA797B600ACAB40 /* Score.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5603D4A61DA797B600ACAB40 /* Score.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5603D49B1DA7977700ACAB40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5603D49E1DA7977700ACAB40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5603D4A01DA7977700ACAB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5603D4A61DA797B600ACAB40 /* Score.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Score.plist; path = ../Score.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5603D4931DA7977700ACAB40 /* HelloPlist */ = {
 			isa = PBXGroup;
 			children = (
+				5603D4A61DA797B600ACAB40 /* Score.plist */,
 				5603D4941DA7977700ACAB40 /* AppDelegate.swift */,
 				5603D4961DA7977700ACAB40 /* ViewController.swift */,
 				5603D4981DA7977700ACAB40 /* Main.storyboard */,
@@ -126,6 +129,7 @@
 			files = (
 				5603D49F1DA7977700ACAB40 /* LaunchScreen.storyboard in Resources */,
 				5603D49C1DA7977700ACAB40 /* Assets.xcassets in Resources */,
+				5603D4A71DA797B600ACAB40 /* Score.plist in Resources */,
 				5603D49A1DA7977700ACAB40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

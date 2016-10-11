@@ -12,12 +12,27 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // 找到路徑檔案
+        if let scorePlist = Bundle.main.path(forResource: "Score", ofType: "plist") {
+            
+            // 用路徑檔案生出Array(optional)
+            if let scoreArray = NSArray(contentsOfFile: scorePlist) {
+                
+                // 找出math score
+                if let dictionary = scoreArray[0] as? NSDictionary {
+                    if let mathScore = dictionary["math"] as? Int {
+                        print(mathScore)
+                    }
+                }
+            }
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
 
